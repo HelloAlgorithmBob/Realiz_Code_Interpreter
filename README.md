@@ -1,4 +1,4 @@
-# Code Interpreter API
+# Code Interpreter
 
 A LangChain implementation of the ChatGPT Code Interpreter.
 Using CodeBoxes as backend for sandboxed python code execution.

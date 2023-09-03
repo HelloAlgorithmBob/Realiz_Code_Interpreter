@@ -10,7 +10,6 @@ import os
 #
 # Set up environment variables
 
-
 # Page configuration
 st.set_page_config(layout="wide")
 
@@ -18,7 +17,9 @@ st.title("Code Interpreter")
 
 # This will create a sidebar
 st.sidebar.title("Code Interpreter")
-# st.sidebar.markdown("[Github Repo](https://github.com/shroominic/codeinterpreter-api)")
+st.sidebar.markdown("A LangChain implementation of the ChatGPT Code Interpreter. You can run everything local except "
+                    "the LLM using your own OpenAI API Key. [Github Repo]("
+                    "https://github.com/HelloAlgorithmBob/Realiz_Code_Interpreter)")
 
 
 # This will create a textbox where you can input text
